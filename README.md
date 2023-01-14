@@ -20,11 +20,11 @@ You might also want to import haproxy/cert.pem to your Browser's trusted certifi
 
 ## Linux:
 
-Then access at http://localhost/myapp/index.jsp or http://tomcat.local/myapp/index.jsp
+Then access at http://localhost/myapp/ or http://tomcat.local/myapp/
 
 ## macOS / Windows
 
-Then access at http://localhost:8000/myapp/index.jsp or http://tomcat.local:8443/myapp/index.jsp
+Then access at http://localhost:8000/myapp/ or http://tomcat.local:8443/myapp/
 
 # Configurations
 
