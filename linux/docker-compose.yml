@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  haproxy:
+    network_mode: host
+    build: haproxy
+    user: root
+    # network=host ignores port mappings and exposes all ports
+    # ports:
+    #   - 8000:80
+    #   - 8443:443
+  tomcat:
+    build: tomcat
+    # haproxy access tomcat via localhost:8080
+    ports:
+      - 8080:8080
